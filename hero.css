@@ -1,10 +1,10 @@
 .nav-logo {
-    width: 11vw;
-    height: 5vh;
+    width: 50px;
+    height: 50px;
     background-color: green;
     color: white;
     border-radius: 50%;
-    border: 1vw solid white;
+    border: 5px solid white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -19,7 +19,7 @@
 .nav-link {
     font-size: 5vw;
     font-weight: 500;
-    color: white;
+    color: green;
 }
 
 .active {
@@ -75,7 +75,7 @@
     width: 250px;
     border: 4px solid white;
     margin-left: 9vw;
-    -webkit-transform: rotate(0deg);
+   -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
             transform: rotate(0deg);
     -webkit-backdrop-filter: blur(10px);
@@ -214,31 +214,60 @@
 }
 
 @media(max-width:320px){
+
     .squareGreen{
         height: 224px;
         width: 224px;
-        margin-left: 15%;
+        margin-top: 5vh;
+        margin-left: 66%;
+        box-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .squareWhite{
         height: 224px;
         width: 224px;
-        margin-left: 15%;
+        margin-left: 66%;
         margin-top: -224px;
+        box-shadow: 2vw 2vw 3vw rgba(8, 12, 38, 0.9);
     }
 
     .suround{
-        height: 224px;
-        width: 224px;
-        margin-left: 15%;
-        margin-top: -224px;
+        height: 320px;
+        width: 320px;
+        margin-left: 50%;
+        margin-top: -272px;
+        background-image: radial-gradient(rgba(29, 64, 54, 0.5), rgba(8, 12, 38, 0.5));
+        
     }
 
     .carousel-inner{
-        height: 214px;
-        width: 214px;
-        margin-left: 16.5%;
-        margin-top: -219px;
+        height: 224px;
+        width: 224px;
+        margin-left: 66%;
+        margin-top: -272px;
+    }
+
+    .sanityTitle{
+        font-size: 30vw;
+        margin-left: 5vw;
+        text-shadow: 2vw 2vw 5vw rgba(8, 12, 38, 0.9);
+    }
+
+    .kingTitle{
+        font-size: 30vw;
+        margin-left: 5vw;
+        text-shadow: 2vw 2vw 5vw rgba(8, 12, 38, 0.9);
+    }
+
+    .quote{
+        margin-top: 2vh;
+        margin-left: 5vw;
+        text-shadow: 2vw 2vw 5vw rgba(8, 12, 38, 0.9);
+    }
+
+    .wpButton{
+        margin-top: 5vh;
+        box-shadow: 2vw 2vw 3vw rgba(8, 12, 38, 0.9);
     }
 }
 
@@ -273,10 +302,12 @@
     .sanityTitle{
         font-size: 20vw;
         margin-top: 15vh;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .kingTitle{
         font-size: 20vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .quote{
@@ -289,9 +320,6 @@
         height: 262.5px;
         width: 262.5px;
         margin-left: 15%;
-        -webkit-transform: rotate(0deg);
-            -ms-transform: rotate(0deg);
-                transform: rotate(0deg);
     }
 
     .squareWhite{
@@ -318,10 +346,12 @@
     .sanityTitle{
         font-size: 20vw;
         margin-top: 5vh;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .kingTitle{
         font-size: 20vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .quote{
@@ -334,9 +364,6 @@
         height: 270px;
         width: 270px;
         margin-left: 15%;
-        -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-                transform: rotate(45deg);
     }
 
     .squareWhite{
@@ -358,10 +385,12 @@
         width: 260px;
         margin-left: 16.5%;
         margin-top: -265px;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .sanityTitle{
         margin-top: 16vh;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .quote{
@@ -376,9 +405,6 @@
         width: 270px;
         margin-top: 1vh;
         margin-left: 15.5vw;
-        -webkit-transform: rotate(0deg);
-            -ms-transform: rotate(0deg);
-                transform: rotate(0deg);
     }
 
     .squareWhite {
@@ -400,10 +426,12 @@
         width: 260px;
         margin-top: -31.2vh;
         margin-left: 16.7vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .sanityTitle {
         margin-top: 16vh;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .quote {
@@ -420,9 +448,6 @@
         height: 270px;
         width: 270px;
         margin-left: 16.8vw;
-        -webkit-transform: rotate(0deg);
-            -ms-transform: rotate(0deg);
-                transform: rotate(0deg);
     }
 
     .squareWhite {
@@ -449,10 +474,12 @@
     .sanityTitle {
         margin-top: 19vh;
         margin-left: 5vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .kingTitle {
         margin-left: 5vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .quote {
@@ -474,9 +501,6 @@
         width: 270px;
         margin-top: -30vh;
         margin-left: 17.5vw;
-        -webkit-transform: rotate(0deg);
-            -ms-transform: rotate(0deg);
-                transform: rotate(0deg);
     }
 
     .suround {
@@ -497,10 +521,12 @@
     .sanityTitle {
         margin-top: 16vh;
         margin-left: 5vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .kingTitle {
         margin-left: 5vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .quote {
@@ -541,10 +567,12 @@
     .sanityTitle{
         margin-top: 4vh;
         font-size: 17vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .kingTitle{
         font-size: 17vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
     .quote{
@@ -557,9 +585,242 @@
     }
 }
 
+@media(min-width: 575px){
+    .squareGreen{
+        height: 287.5px;
+        width: 287.5px;
+        margin-left: 25%;
+    }
+
+    .squareWhite{
+        height: 287.5px;
+        width: 287.5px;
+        margin-left: 25%;
+        margin-top: -287.5px;
+    }
+
+    .suround{
+        height: 287.5px;
+        width: 287.5px;
+        margin-left: 25%;
+        margin-top: -287.5px;
+    }
+
+    .carousel-inner{
+        height: 230px;
+        width: 230px;
+        margin-left: 30%;
+        margin-top: -258.75px;
+    }
+
+    .sanityTitle{
+        font-size: 18vw;
+        margin-top: 15vh;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
+    }
+
+    .kingTitle{
+        font-size: 18vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
+    }
+
+    .quote{
+        margin-top: 3vh;
+    }
+    
+    .wpButton{
+        margin-top: 3vh;
+    }
+}
+
+@media(min-width: 768px){
+    .container-hero{
+        background-image: radial-gradient(rgba(29, 64, 54, 0.9), rgba(8, 12, 38, 0.9));
+        padding-bottom: -25vh;
+    }
+
+    .squareGreen{
+        width: 70vw;
+        height: 70vw;
+        margin-left: 14vw;
+        margin-top: 8vh;
+        border: 10px solid green;
+        
+    }
+
+    .squareWhite{
+        width: 70vw;
+        height: 70vw;
+        margin-left: 14vw;
+        margin-top: -70vw;
+        border: 10px solid white;
+       
+    }
+
+    .suround{
+        width: 70vw;
+        height: 70vw;
+        margin-left: 14vw;
+        margin-top: -70vw;
+        border: 10px solid white;
+        
+    }
+
+    .carousel-inner{
+        width: 68vw;
+        height: 68vw;
+        margin-left: 15vw;
+        margin-top: -69vw;
+        border: 10px solid greenyellow;
+        box-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
+    }
+
+    .sanityTitle{
+        position: relative;
+        z-index: 999;
+        font-size: 28vw;
+        font-weight: 700;
+        margin-top: -38vh;
+        margin-left: 10vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
+    }
+
+    .kingTitle{
+        position: relative;
+        z-index: 999;
+        font-size: 28vw;
+        font-weight: 700;
+        margin-top: -15vh;
+        margin-left: 18vw;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
+    }
+
+    .quote{
+        margin-top: 1vh;
+        margin-left: 25vw;
+    }
+
+}
+
+@media(min-width: 820px){
+    .quote{
+        margin-top: 10vh;
+    }
+}
+
+@media(min-width: 1024px){
+    
+    .nav-item a{
+        font-size: 2vw;
+        color: white;
+        margin-left: 5vw;
+    }
+
+    .squareGreen{
+        max-width: 512px;
+        max-height: 512px;
+        margin-left: 25%;
+    }
+
+    .squareWhite{
+        max-width: 512px;
+        max-height: 512px;
+        margin-left: 25%;
+        margin-top: -512px;
+    }
+
+    .suround{
+        max-width: 512px;
+        max-height: 512px;
+        margin-left: 25%;
+        margin-top: -512px;
+    }
+
+    .carousel-inner{
+        max-width: 462px;
+        max-height: 462px;
+        margin-left: 27.5%;
+        margin-top: -487px;
+    }
+
+    .sanityTitle{
+        font-size: 16vw;
+        margin-left: 25%;
+    }
+
+    .kingTitle{
+        font-size: 16vw;
+        margin-left: 28%;
+    }
+
+    .quote{
+        margin-top: 3vh;
+    }
+
+    .wpButton{
+        margin-top: -8vh;
+    }
+}
+
+@media(min-width: 1366px){
+    .container-fluid{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .sanityTitle{
+        margin-top: -50vh;
+        font-size: 14vw;
+    }
+
+    .kingTitle{
+        margin-top: -18vh;
+        font-size: 14vw;
+    }
+
+    .quote{
+        position: relative;
+        margin-top: -5vh;
+        margin-left: 15vw;
+    }
+}
+
+@media(min-width: 1440px){
+    .quote{
+        margin-top: 12vh;
+    }
+}
+
+@media(min-width: 1920px){
+    .squareGreen{
+        margin-left: 30%;
+    }
+
+    .squareWhite{
+        margin-left: 30%;
+    }
+
+    .suround{
+        margin-left: 30%;
+    }
+
+    .carousel-inner{
+        margin-left: 31.5%;
+    }
+
+    .sanityTitle{
+        margin-top: -30vh;
+        margin-left: 20%;
+    }
+
+    .quote{
+        margin-top: -5vh;
+    }
+}
+
 @supports((-o-object-fit: cover) or (object-fit: cover)) {
     img {
-        height: 35vh;
+        height: 40vh;
         -o-object-fit: cover;
            object-fit: cover;
         -o-object-position: center;
