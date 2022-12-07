@@ -1,0 +1,189 @@
+.container-services{
+    width: 100vw;
+    margin: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.9),rgba(8, 12, 38, 0.4));
+    padding-top: 7vh;
+    padding-bottom: 1vh;
+}
+
+.servicesTitle{
+    color: white;
+    -webkit-text-stroke: 2px green;
+    text-shadow: 2vw 2vw 3vw rgba(8, 12, 38, 0.9);
+}
+
+.card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15vw;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 2px green;
+    text-shadow: 2vw 3vw 1vw rgba(8, 12, 38, 0.9);
+}
+
+.offcanvas{
+    background-image: radial-gradient(rgba(29, 64, 54, 0.9), rgba(8, 12, 38, 0.9));
+}
+
+a:hover{
+    color: white;
+}
+
+.offcanvas-text{
+    color: white;
+    font-size: 15vw;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.offcanvas-title{
+    margin: auto;
+}
+
+.offtitle{
+    color: green;
+    margin: auto;
+    font-size: 10vw;
+    font-weight: 500;
+}
+.offcanvas-card-img-top{
+    margin: auto;
+    height: 30vh;
+    width: 89vw;
+    border-radius: 20px 20px 0 0;
+}
+
+.btn-success{
+    background-color: green;
+    box-shadow: 2vw 2vw v2vw;
+}
+
+#servicio1{
+    background-image: radial-gradient(rgba(29, 64, 54, 0.9), rgba(8, 12, 38, 0.8)), url("./media/img/Aseo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#servicio2{
+    background-image: radial-gradient(rgba(29, 64, 54, 0.9), rgba(8, 12, 38, 0.8)), url("./media/img/Mantenimiento.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#servicio3{
+    background-image: radial-gradient(rgba(29, 64, 54, 0.9), rgba(8, 12, 38, 0.8)), url("./media/img/Plagas.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width:320px){
+
+    .servicesTitle > h1{
+        font-size: 15vw;
+        font-weight: 500;
+        margin-top: -5vh;
+        margin-left: 5vw;
+    }
+
+    .card{
+        height: 40vh;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vh;
+        padding: 20px;
+
+    }
+
+    .card-text{
+        font-size: 5vw;
+        font-weight: 500;
+        color: white;
+    }
+
+    .card-btn{
+        height: 20px;
+        width: 20px;
+        margin-left: 5vw;
+        padding: 10px 15px;
+        border-radius: 30%;
+        border: 2px solid rgba(8, 12, 38, 0.1);
+        box-shadow: 2vw 2vw 5vw rgba(8, 12, 38, 0.9);
+        background-color: green;
+        color: white;
+        text-decoration: none;
+    }
+
+    .offcanvas-title{
+        font-size: 20vw;
+        font-weight: 500;
+        color: white;
+        -webkit-text-stroke: 1.5px green;
+        text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
+    }
+
+    .offcanvas-card{
+        margin: auto;
+        border: 2px solid green;
+        border-radius: 20px;
+    }
+
+    
+}
+
+@media(min-width: 360px){
+    
+}
+
+@media(min-width: 375px){
+    
+}
+
+@media(min-width: 390px) {
+}    
+
+@media(min-width: 393px) {
+   
+}
+
+@media (min-width:412px) {
+
+}
+
+@media(min-width:414px) {
+    
+}
+
+@media(min-width: 425px){
+   
+}
+
+@media(min-width: 575px){
+   
+}
+
+@media(min-width: 768px){
+
+}
+
+@media(min-width: 820px){
+   
+}
+
+@media(min-width: 1024px){
+    
+}
+
+@media(min-width: 1366px){
+    
+}
+
+@media(min-width: 1440px){
+    
+}
+
+@media(min-width: 1920px){
+    
+}

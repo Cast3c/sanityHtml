@@ -20,6 +20,8 @@
     font-size: 5vw;
     font-weight: 500;
     color: green;
+    -webkit-text-stroke: 1px rgba(8, 12, 38, 0.5);
+    text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
 }
 
 .active {
@@ -249,18 +251,20 @@
 
     .sanityTitle{
         font-size: 30vw;
+        margin-top: -5vh;
         margin-left: 5vw;
         text-shadow: 2vw 2vw 5vw rgba(8, 12, 38, 0.9);
     }
 
     .kingTitle{
         font-size: 30vw;
+        margin-top: -10vh;
         margin-left: 5vw;
         text-shadow: 2vw 2vw 5vw rgba(8, 12, 38, 0.9);
     }
 
     .quote{
-        margin-top: 2vh;
+        margin-top: -1vh;
         margin-left: 5vw;
         text-shadow: 2vw 2vw 5vw rgba(8, 12, 38, 0.9);
     }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="hero.css">
     <link rel="stylesheet" href="services.css">
     <script src="https://kit.fontawesome.com/4b71595393.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4b71595393.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </head>
 
@@ -19,10 +20,9 @@
             <div class="container-fluid">
                 <nav class="navbar fixed-top navbar-expand-lg">
                     <div class="container-fluid">
-                        <a class="navbar-brand nav-logo" href="#">SK</a>
                         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="...">Menu</span>
+                            <span class="..."></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
@@ -69,14 +69,131 @@
                 <div class="quote">
                     Lorem ipsum dolor sit amet.
                 </div>
-                <div class="wpButton">
+                <div class="wpButton fixed-bottom">
                     <a href=""><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
             </div>
-
         </div>
         <div class="container-services">
+            <div class="servicesTitle">
+                <h1>Servicios</h1>
+            </div>
+            <!---======SERVICIO 1======-->
+            <div class="card" id="servicio1">
+                <div class="card-body">
+                    <h5 class="card-title">Servicio1</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    <a href="#moreInfoService1" data-bs-toggle="offcanvas" role="button"
+                        aria-controls="moreInfoService1" class="card-btn"><i class="fa-solid fa-plus"></i></a>
+                    <a href="#" class="card-btn"><i class="fa-solid fa-envelope"></i></a>
+                    <a class="card-btn" data-bs-toggle="offcanvas" data-bs-target="#contactoTelefonico"
+                        aria-controls="offcanvasBottom"><i class="fa-solid fa-phone"></i></a>
 
+                    <!--######OFFCANVAS DE INFORMACION DE SERVICIOS######-->
+
+                    <!------ servicios 1 ------>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="moreInfoService1"
+                        aria-labelledby="moreInfoService1Label">
+                        <button type="button" id="xclose" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                        <h5 class="offcanvas-title" id="moreInfoService1Label">
+                            Servicio1
+                        </h5>
+                        <div class="offcanvas-card" style="width: 18rem;">
+                            <img src="./media/img/Aseo.jpg" class="offcanvas-card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-success">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!------ fin servicios 1 ------>
+                </div>
+            </div>
+            <!---======FIN SERVICIO 1======--->
+            <!---##########################--->
+            <!--======SERVICIO 2======--->
+            <div class="card" id="servicio2">
+                <div class="card-body">
+                    <h5 class="card-title">Servicio2</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    <a href="#moreInfoService2" data-bs-toggle="offcanvas" role="button"
+                        aria-controls="moreInfoService2" class="card-btn"><i class="fa-solid fa-plus"></i></a>
+                    <a href="#" class="card-btn"><i class="fa-solid fa-envelope"></i></a>
+                    <a class="card-btn" data-bs-toggle="offcanvas" data-bs-target="#contactoTelefonico"
+                        aria-controls="offcanvasBottom"><i class="fa-solid fa-phone"></i></a>
+
+                    <!--######OFFCANVAS DE INFORMACION DE SERVICIOS######-->
+
+                    <!------ info servicios 2 ------>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="moreInfoService2"
+                        aria-labelledby="moreInfoService2Label">
+                        <button type="button" id="xclose" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                        <h5 class="offcanvas-title" id="moreInfoService2Label">
+                            Servicio2
+                        </h5>
+                        <div class="offcanvas-card" style="width: 18rem;">
+                            <img src="./media/img/Mantenimiento.jpg" class="offcanvas-card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-success">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!------ info servicios 2 ------>
+                </div>
+            </div>
+            <!---======FIN SERVICIO2======--->
+            <!---##########################--->
+            <!--======SERVICIO 3======--->
+            <div class="card" id="servicio3">
+                <div class="card-body">
+                    <h5 class="card-title">Servicio3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                    <a href="#moreInfoService3" data-bs-toggle="offcanvas" role="button"
+                        aria-controls="moreInfoService3" class="card-btn"><i class="fa-solid fa-plus"></i></a>
+                    <a href="#" class="card-btn"><i class="fa-solid fa-envelope"></i></a>
+                    <a class="card-btn" data-bs-toggle="offcanvas" data-bs-target="#contactoTelefonico"
+                        aria-controls="offcanvasBottom"><i class="fa-solid fa-phone"></i></a>
+
+                    <!--######OFFCANVAS DE INFORMACION DE SERVICIOS######-->
+
+                    <!------ info servicios 3 ------>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="moreInfoService3"
+                        aria-labelledby="moreInfoService3Label">
+                        <button type="button" id="xclose" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                        <h5 class="offcanvas-title" id="moreInfoService3Label">
+                            Servicio3
+                        </h5>
+                        <div class="offcanvas-card" style="width: 18rem;">
+                            <img src="./media/img/Plagas.jpeg" class="offcanvas-card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-success">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!------ info servicios 3 ------>
+                </div>
+            </div>
+            <!---======FIN SERVICIO3======--->
+            <!---#########################--->
+            <!---======CONTACTO TELEFONICO======--->
+            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="contactoTelefonico"
+                aria-labelledby="contactoTelefonicoLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offtitle" id="contactoTelefonicoLabel">Telefono</h5>
+                </div>
+                <div class="offcanvas-body small">
+                    <a href="tel: +573132129686" class="offcanvas-text">3132129686</a>
+                </div>
+            </div>
+            <!---======FIN CONTACTO TELEFONICO======--->
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
