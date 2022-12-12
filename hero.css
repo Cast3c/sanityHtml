@@ -9,11 +9,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .nav-link {
@@ -65,11 +65,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .squareWhite {
@@ -77,19 +77,19 @@
     width: 250px;
     border: 4px solid white;
     margin-left: 9vw;
-   -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-            transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
     -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     -webkit-animation: spin45;
-            animation: spin45;
+    animation: spin45;
     -webkit-animation-duration: 20000ms;
-            animation-duration: 20000ms;
+    animation-duration: 20000ms;
     -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
+    animation-timing-function: linear;
 }
 
 .squareGreen {
@@ -98,22 +98,25 @@
     border: 4px solid green;
     margin-left: -2vh;
     -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     -webkit-animation: spin;
-            animation: spin;
+    animation: spin;
     -webkit-animation-duration: 20000ms;
-            animation-duration: 20000ms;
+    animation-duration: 20000ms;
     -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
+    animation-timing-function: linear;
 }
 
 .carousel-inner {
     height: 270px;
     width: 270px;
     border-collapse: separate;
-    border-radius: 50%;
+    border-radius: 100px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 50px;
+    -khtml-border-radius: 50px;
     margin-left: 9.5vw;
     border: 6px solid greenyellow;
 }
@@ -154,11 +157,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background-color: rgb(37, 211, 102);
     border-radius: 50%;
 }
@@ -174,14 +177,14 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background-color: rgb(37, 211, 102);
     -webkit-animation: pulsation1 4s ease infinite;
-            animation: pulsation1 4s ease infinite;
+    animation: pulsation1 4s ease infinite;
     z-index: 0;
 }
 
@@ -196,14 +199,14 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background-color: rgb(37, 211, 102);
     -webkit-animation: pulsation2 4s ease infinite;
-            animation: pulsation2 4s ease infinite;
+    animation: pulsation2 4s ease infinite;
     z-index: 0;
 }
 
@@ -215,9 +218,9 @@
     margin-left: 1px;
 }
 
-@media(max-width:320px){
+@media(max-width:320px) {
 
-    .squareGreen{
+    .squareGreen {
         height: 224px;
         width: 224px;
         margin-top: 5vh;
@@ -225,7 +228,7 @@
         box-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .squareWhite{
+    .squareWhite {
         height: 224px;
         width: 224px;
         margin-left: 66%;
@@ -233,132 +236,132 @@
         box-shadow: 2vw 2vw 3vw rgba(8, 12, 38, 0.9);
     }
 
-    .suround{
+    .suround {
         height: 320px;
         width: 320px;
         margin-left: 50%;
         margin-top: -272px;
         background-image: radial-gradient(rgba(29, 64, 54, 0.5), rgba(8, 12, 38, 0.5));
-        
+
     }
 
-    .carousel-inner{
+    .carousel-inner {
         height: 224px;
         width: 224px;
         margin-left: 66%;
         margin-top: -272px;
     }
 
-    .sanityTitle{
+    .sanityTitle {
         font-size: 30vw;
         margin-top: -5vh;
         margin-left: 5vw;
         text-shadow: 2vw 2vw 5vw rgba(8, 12, 38, 0.9);
     }
 
-    .kingTitle{
+    .kingTitle {
         font-size: 30vw;
         margin-top: -10vh;
         margin-left: 5vw;
         text-shadow: 2vw 2vw 5vw rgba(8, 12, 38, 0.9);
     }
 
-    .quote{
+    .quote {
         margin-top: -1vh;
         margin-left: 5vw;
         text-shadow: 2vw 2vw 5vw rgba(8, 12, 38, 0.9);
     }
 
-    .wpButton{
+    .wpButton {
         margin-top: 5vh;
         box-shadow: 2vw 2vw 3vw rgba(8, 12, 38, 0.9);
     }
 }
 
-@media(min-width: 360px){
-    .squareGreen{
+@media(min-width: 360px) {
+    .squareGreen {
         height: 252px;
         width: 252px;
         margin-left: 15%;
     }
 
-    .squareWhite{
-        height: 252px;
-        width: 252px;
-        margin-left: 15%;
-        margin-top: -252px;
-    }
-
-    .suround{
+    .squareWhite {
         height: 252px;
         width: 252px;
         margin-left: 15%;
         margin-top: -252px;
     }
 
-    .carousel-inner{
+    .suround {
+        height: 252px;
+        width: 252px;
+        margin-left: 15%;
+        margin-top: -252px;
+    }
+
+    .carousel-inner {
         height: 242px;
         width: 242px;
         margin-left: 16.5%;
         margin-top: -247px;
     }
 
-    .sanityTitle{
+    .sanityTitle {
         font-size: 20vw;
         margin-top: 15vh;
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .kingTitle{
+    .kingTitle {
         font-size: 20vw;
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .quote{
+    .quote {
         font-size: 5vw;
     }
 }
 
-@media(min-width: 375px){
-    .squareGreen{
+@media(min-width: 375px) {
+    .squareGreen {
         height: 262.5px;
         width: 262.5px;
         margin-left: 15%;
     }
 
-    .squareWhite{
+    .squareWhite {
         height: 262.5px;
         width: 262.5px;
         margin-left: 15%;
-        margin-top: -262.5px; 
+        margin-top: -262.5px;
     }
 
-    .suround{
+    .suround {
         height: 262.5px;
         width: 262.5px;
         margin-left: 15%;
-        margin-top: -262.5px; 
+        margin-top: -262.5px;
     }
 
-    .carousel-inner{
+    .carousel-inner {
         height: 252.5px;
         width: 252.5px;
         margin-top: -257.5px;
-        margin-left: 16.5%; 
+        margin-left: 16.5%;
     }
 
-    .sanityTitle{
+    .sanityTitle {
         font-size: 20vw;
         margin-top: 5vh;
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .kingTitle{
+    .kingTitle {
         font-size: 20vw;
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .quote{
+    .quote {
         font-size: 5vw;
     }
 }
@@ -370,21 +373,21 @@
         margin-left: 15%;
     }
 
-    .squareWhite{
+    .squareWhite {
         height: 270px;
         width: 270px;
         margin-left: 15%;
         margin-top: -270px;
     }
 
-    .suround{
+    .suround {
         height: 270px;
         width: 270px;
         margin-left: 15%;
         margin-top: -270px;
     }
 
-    .carousel-inner{
+    .carousel-inner {
         height: 260px;
         width: 260px;
         margin-left: 16.5%;
@@ -392,12 +395,12 @@
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .sanityTitle{
+    .sanityTitle {
         margin-top: 16vh;
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .quote{
+    .quote {
         margin-left: 6vw;
         margin-top: 1vh;
     }
@@ -497,7 +500,7 @@
     .squareGreen {
         height: 270px;
         width: 270px;
-        margin:auto;
+        margin: auto;
     }
 
     .squareWhite {
@@ -542,138 +545,138 @@
 
 }
 
-@media(min-width: 425px){
-    .squareGreen{
+@media(min-width: 425px) {
+    .squareGreen {
         height: 297.5px;
         width: 297.5px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .squareWhite{
+    .squareWhite {
         height: 297.5px;
         width: 297.5px;
         margin-left: 15%;
         margin-top: -297.5px;
     }
 
-    .suround{
+    .suround {
         height: 297.5px;
         width: 297.5px;
         margin-left: 15%;
         margin-top: -297.5px;
     }
 
-    .carousel-inner{
+    .carousel-inner {
         height: 287.5px;
         width: 287.5px;
         margin-left: 16.5%;
         margin-top: -292.5px;
     }
 
-    .sanityTitle{
+    .sanityTitle {
         margin-top: 4vh;
         font-size: 30vw;
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .kingTitle{
+    .kingTitle {
         font-size: 30vw;
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .quote{
+    .quote {
         font-size: 7vw;
         margin-top: -1vh;
     }
 
-    .wpButton{
+    .wpButton {
         margin-top: 1vh;
     }
 }
 
-@media(min-width: 575px){
-    .squareGreen{
+@media(min-width: 575px) {
+    .squareGreen {
         height: 287.5px;
         width: 287.5px;
         margin-left: 25%;
     }
 
-    .squareWhite{
-        height: 287.5px;
-        width: 287.5px;
-        margin-left: 25%;
-        margin-top: -287.5px;
-    }
-
-    .suround{
+    .squareWhite {
         height: 287.5px;
         width: 287.5px;
         margin-left: 25%;
         margin-top: -287.5px;
     }
 
-    .carousel-inner{
+    .suround {
+        height: 287.5px;
+        width: 287.5px;
+        margin-left: 25%;
+        margin-top: -287.5px;
+    }
+
+    .carousel-inner {
         height: 230px;
         width: 230px;
         margin-left: 30%;
         margin-top: -258.75px;
     }
 
-    .sanityTitle{
+    .sanityTitle {
         font-size: 18vw;
         margin-top: 15vh;
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .kingTitle{
+    .kingTitle {
         font-size: 18vw;
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .quote{
+    .quote {
         margin-top: 3vh;
     }
-    
-    .wpButton{
+
+    .wpButton {
         margin-top: 3vh;
     }
 }
 
-@media(min-width: 768px){
-    .container-hero{
+@media(min-width: 768px) {
+    .container-hero {
         background-image: radial-gradient(rgba(29, 64, 54, 0.9), rgba(8, 12, 38, 0.9));
         padding-bottom: -25vh;
     }
 
-    .squareGreen{
+    .squareGreen {
         width: 70vw;
         height: 70vw;
         margin-left: 14vw;
         margin-top: 5vh;
         border: 10px solid green;
-        
+
     }
 
-    .squareWhite{
+    .squareWhite {
         width: 70vw;
         height: 70vw;
         margin-left: 14vw;
         margin-top: -70vw;
         border: 10px solid white;
-       
+
     }
 
-    .suround{
+    .suround {
         width: 70vw;
         height: 70vw;
         margin-left: 14vw;
         margin-top: -70vw;
         border: 10px solid white;
-        
+
     }
 
-    .carousel-inner{
+    .carousel-inner {
         width: 68vw;
         height: 68vw;
         margin-left: 15vw;
@@ -682,7 +685,7 @@
         box-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .sanityTitle{
+    .sanityTitle {
         position: relative;
         z-index: 999;
         font-size: 28vw;
@@ -692,7 +695,7 @@
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .kingTitle{
+    .kingTitle {
         position: relative;
         z-index: 999;
         font-size: 28vw;
@@ -702,203 +705,207 @@
         text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
     }
 
-    .quote{
+    .quote {
         margin-top: 10vh;
         margin-left: 25vw;
     }
 
 }
 
-@media(min-width: 820px){
-    .quote{
+@media(min-width: 820px) {
+    .quote {
         margin-top: 10vh;
     }
 }
 
-@media(min-width: 1024px){
-    
-    .nav-item a{
+@media(min-width: 1024px) {
+
+    .nav-item a {
         font-size: 2vw;
         color: white;
         margin-left: 5vw;
     }
 
-    .squareGreen{
+    .squareGreen {
         max-width: 512px;
         max-height: 512px;
         margin-left: 25%;
     }
 
-    .squareWhite{
-        max-width: 512px;
-        max-height: 512px;
-        margin-left: 25%;
-        margin-top: -512px;
-    }
-
-    .suround{
+    .squareWhite {
         max-width: 512px;
         max-height: 512px;
         margin-left: 25%;
         margin-top: -512px;
     }
 
-    .carousel-inner{
+    .suround {
+        max-width: 512px;
+        max-height: 512px;
+        margin-left: 25%;
+        margin-top: -512px;
+    }
+
+    .carousel-inner {
         max-width: 462px;
         max-height: 462px;
         margin-left: 27.5%;
         margin-top: -487px;
     }
 
-    .sanityTitle{
+    .sanityTitle {
         font-size: 16vw;
         margin-left: 25%;
     }
 
-    .kingTitle{
+    .kingTitle {
         font-size: 16vw;
         margin-left: 28%;
     }
 
-    .quote{
+    .quote {
         margin-top: 3vh;
     }
 
-    .wpButton{
+    .wpButton {
         margin-top: -8vh;
     }
 }
 
-@media(min-width: 1366px){
-    .container-fluid{
+@media(min-width: 1366px) {
+    .container-fluid {
         padding-left: 10%;
         padding-right: 10%;
     }
 
-    .sanityTitle{
+    .sanityTitle {
         margin-top: -50vh;
         font-size: 14vw;
     }
 
-    .kingTitle{
+    .kingTitle {
         margin-top: -18vh;
         font-size: 14vw;
     }
 
-    .quote{
+    .quote {
         position: relative;
         margin-top: -5vh;
         margin-left: 15vw;
     }
 }
 
-@media(min-width: 1440px){
-    .quote{
+@media(min-width: 1440px) {
+    .quote {
         margin-top: 12vh;
     }
 }
 
-@media(min-width: 1920px){
-    .squareGreen{
+@media(min-width: 1920px) {
+    .squareGreen {
         margin-left: 30%;
     }
 
-    .squareWhite{
+    .squareWhite {
         margin-left: 30%;
     }
 
-    .suround{
+    .suround {
         margin-left: 30%;
     }
 
-    .carousel-inner{
+    .carousel-inner {
         margin-left: 31.5%;
     }
 
-    .sanityTitle{
+    .sanityTitle {
         margin-top: -30vh;
         margin-left: 20%;
     }
 
-    .quote{
+    .quote {
         margin-top: -5vh;
     }
 }
 
 @supports((-o-object-fit: cover) or (object-fit: cover)) {
     img {
-        height: 40vh;
+        height: 400px;
         -o-object-fit: cover;
-           object-fit: cover;
+        object-fit: cover;
         -o-object-position: center;
-           object-position: center;
+        object-position: center;
+        border-radius: 500px;
+        -webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        -khtml-border-radius: 500px;
     }
 }
 
 @-webkit-keyframes spin {
     from {
         -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 
     to {
         -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
 @keyframes spin {
     from {
         -webkit-transform: rotate(0deg);
-                transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 
     to {
         -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
 @-webkit-keyframes spin45 {
     from {
         -webkit-transform: rotate(45deg);
-                transform: rotate(45deg);
+        transform: rotate(45deg);
     }
 
     to {
         -webkit-transform: rotate(405deg);
-                transform: rotate(405deg);
+        transform: rotate(405deg);
     }
 }
 
 @keyframes spin45 {
     from {
         -webkit-transform: rotate(45deg);
-                transform: rotate(45deg);
+        transform: rotate(45deg);
     }
 
     to {
         -webkit-transform: rotate(405deg);
-                transform: rotate(405deg);
+        transform: rotate(405deg);
     }
 }
 
 @-webkit-keyframes pulsation1 {
     0% {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
         opacity: 1;
     }
 
     70% {
         -webkit-transform: scale(3);
-                transform: scale(3);
+        transform: scale(3);
         opacity: 0;
     }
 
     100% {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
         opacity: 0;
     }
 }
@@ -906,47 +913,51 @@
 @keyframes pulsation1 {
     0% {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
         opacity: 1;
     }
 
     70% {
         -webkit-transform: scale(3);
-                transform: scale(3);
+        transform: scale(3);
         opacity: 0;
     }
 
     100% {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
         opacity: 0;
     }
 }
 
 @-webkit-keyframes pulsation2 {
-    0%, 20% {
+
+    0%,
+    20% {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
         opacity: 0.4;
     }
 
     100% {
         -webkit-transform: scale(3);
-                transform: scale(3);
+        transform: scale(3);
         opacity: 0;
     }
 }
 
 @keyframes pulsation2 {
-    0%, 20% {
+
+    0%,
+    20% {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
         opacity: 0.4;
     }
 
     100% {
         -webkit-transform: scale(3);
-                transform: scale(3);
+        transform: scale(3);
         opacity: 0;
     }
 }
