@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: linear-gradient(rgba(8, 12, 38, 0.9), rgba(61, 115, 80, 0.9));
+    position: absolute;
+}
+
+.fotos-container {
+    position: absolute;
+    height: 100vh;
+    width: 70vw;
+    margin-left: -18.9vw;
+    box-shadow: 5vw 2vw 10vw rgba(1, 1, 1, 0.9);
+    transform: skew(10deg);
+    filter: blur(1px);
+}
+
+.nav-item>a {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 2vw;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1vw 1vw 1vw rgba(8, 12, 38, 0.9);
+}
+
+.nav-item>a:hover {
+    color: white;
+    transform: scale(1.3);
+}
+
+.heroCenter {
+    position: absolute;
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.circleHero {
+    position: relative;
+    display: grid;
+    place-content: center;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    background-color: rgb(8, 12, 38);
+    backdrop-filter: blur(20px);
+    z-index: 9;
+}
+
+.circleHero::after {
+    position: absolute;
+    content: "";
+    height: 30vw;
+    width: 30vw;
+    border: 10px solid green;
+    z-index: -3;
+    animation: rotation 8000ms infinite;
+    animation-timing-function: linear;
+}
+
+.circleHero::before {
+    position: absolute;
+    content: "";
+    height: 30vw;
+    width: 30vw;
+    border: 10px solid white;
+    transform: rotate(45deg);
+    z-index: -2;
+    animation: rotation1 8000ms infinite;
+    animation-timing-function: linear;
+}
+
+.sanityTitle {
+    position: relative;
+    font-size: 10vw;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 0.3vw green;
+    text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
+    margin: 0;
+}
+
+.kingTitle {
+    position: relative;
+    font-size: 10vw;
+    font-weight: 700;
+    color: green;
+    -webkit-text-stroke: 3px white;
+    text-shadow: 2vw 2vw 1vw rgba(8, 12, 38, 0.9);
+    margin-top: -12vh;
+}
+
+.quote{
+    position: relative;
+    width: 10vw;
+    margin-right: 2vw;
+    margin-top: 70vh;
+    text-align: right;
+    color: white;
+    font-weight: 700;
+    float: right;
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 600px){
+    
+    .nav-item>a{
+        font-size: 5vw;
+    }
+
+    .circleHero{
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .circleHero::after{
+        width: 60vw;
+        height: 60vw;
+        border: 5px solid green;
+    }
+    
+    .circleHero::before{
+        width: 60vw;
+        height: 60vw;
+        border: 5px solid white;
+    }
+
+    .sanityTitle{
+        font-size: 22vw;
+    }
+
+    .kingTitle {
+        font-size: 22vw;
+        margin-top: -8vh;
+    }
+
+    .quote{
+        width: 15vw;
+        margin-top: 80vh;
+        margin-right: 3vw;
+        font-size: 3.5vw;
+        text-align: right;
+    }
+
+}
+
+/* Add a responsive style for medium-sized screens */
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    
+}
+
+/* Add a responsive style for large screens */
+@media screen and (min-width: 960px) {
+
+}
+
+@supports(object-fit: cover) {
+    img {
+        height: 100vh;
+        margin-left: 18vw;
+        object-fit: cover;
+        transform: skew(-10deg);
+    }
+}
+
+@keyframes pulsation1 {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1.7);
+        -webkit-transform: scale(1.7);
+        opacity: 0;
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation1 {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(405deg);
+    }
+}
